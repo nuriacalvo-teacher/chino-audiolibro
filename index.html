@@ -27,7 +27,8 @@ input,select{background:var(--card);border:1px solid var(--bd);border-radius:10p
 #pop{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--ac);padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px));display:none;z-index:9;box-shadow:0 -6px 24px rgba(0,0,0,.2)}
 #pop .big{font-size:3rem}.big+div{font-size:1.3rem;color:var(--ac)}
 .sc{font-size:4rem;text-align:center;color:var(--ac);margin:10px 0}
-</style></head><body><div id="app"></div><div id="pop"></div>
+.copy{text-align:center;color:var(--mu);font-size:.8rem;padding:8px 16px calc(16px + env(safe-area-inset-bottom,0px))}
+</style></head><body><div id="app"></div><footer class="copy">© 2026 Nuria Calvo Domínguez</footer><div id="pop"></div>
 <script>
 const D={},V={1:[],2:[]};
 function P(s,l){s.split(';').forEach(x=>{const[a,b,c]=x.split('|');D[a]={p:b,e:c,l};V[l].push(a)})}
